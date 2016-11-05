@@ -21,5 +21,5 @@ p.Put(buf)
 
 ```
 
-**I've implemented this enough times that this small dependency comes in 
-handy in reducing boilerplate code.**
+*I've implemented this enough times that this small dependency comes in 
+handy in reducing boilerplate code.*
