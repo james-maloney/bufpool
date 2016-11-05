@@ -5,6 +5,7 @@ to store [\*bytes.Buffer.](https://golang.org/pkg/bytes/#Buffer)
 
 ## Usage
 
+```go
 	// Create a new pool
 	p := bufpool.New()
 
@@ -16,6 +17,7 @@ to store [\*bytes.Buffer.](https://golang.org/pkg/bytes/#Buffer)
 
 	// Put the buffer back into the pool
 	p.Put(buf)
+```
 
 **I've implemented this enough times that this small dependency comes in 
 handy in reducing boilerplate code.**
